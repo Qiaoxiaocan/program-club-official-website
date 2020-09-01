@@ -498,7 +498,7 @@ marquee{
     }
     #body_1_2 img{
         width: 100%;
-        height: 180px;
+        height: 150px;
         z-index: 1;
         opacity: 0.9;
     }
@@ -512,7 +512,7 @@ marquee{
     }
     .body_1_2_1 p{
         color: white;
-        line-height: 50px;
+        line-height: 25px;
         text-align: center;
     }
     #body_1_3 li{
@@ -520,7 +520,7 @@ marquee{
     }
     #body_1_3 img{
         width: calc(100%);
-        height: 250px;
+        height: 220px;
         border: solid 4px rgb(255, 255, 255);
         border-radius: 10px;
     }
@@ -540,7 +540,7 @@ marquee{
     .body_1_4_1 p{
         color: white;
         text-align: center;
-        line-height: 50px;
+        line-height: 25px;
     }
     #body_1_3 img:hover{
         transition-property: all;
@@ -588,6 +588,7 @@ marquee{
         position: fixed;
         bottom: 30px;
         right: 30px;
+        display: none;
     }
     #group img{
         height: 120px;
